@@ -198,3 +198,53 @@ console.log(cumprimentar("João", "manhã")); // Esperado: "Boa manhã, João!"
 
 console.log("Teste Função B (arrow):");
 console.log(cumprimentarArrow("Maria", "noite")); // Esperado: "Boa noite, Maria!"
+
+console.log(" ");
+
+
+console.log("Parte A — Escopo");
+let app = "MinhaApp"; 
+
+function apresentar() {
+    let versao = "1.0"; 
+    console.log("App: " + app); 
+    console.log("Versão: " + versao); 
+}
+
+apresentar();
+
+
+console.log("Tentando acessar versao fora da função:");
+try {
+    console.log(versao); 
+} catch (error) {
+    
+    
+    
+    console.log("Erro: versao is not defined — porque foi declarada localmente dentro da função");
+}
+
+console.log(" ");
+
+
+console.log("Parte B — Callback");
+function executarTarefa(nomeTarefa, callback) {
+    console.log("Iniciando: " + nomeTarefa);
+    callback();
+}
+
+executarTarefa("Lavar pratos", () => {
+    console.log("Tarefa concluída!");
+});
+
+console.log(" ");
+
+
+console.log("Parte C — Async");
+async function buscarPerfil() {
+    return "Perfil carregado: Usuário Padrão";
+}
+
+buscarPerfil().then(resultado => {
+    console.log(resultado);
+});
