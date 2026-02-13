@@ -15,3 +15,17 @@ let pontuacao = 0;
 console.log("O nome do jogador é " + nomeJogador + " e sua pontuação é " + pontuacao + ".");
 pontuacao += 10;
 console.log("O nome do jogador é " + nomeJogador + " e sua pontuação é " + pontuacao + ".");
+
+console.log(" ");
+
+const nome = "João";
+let idade = 20;
+const masculino = true;
+let altura;
+
+console.log(" A variável nome é do tipo " + typeof nome);
+console.log(" A variável idade é do tipo " + typeof idade);
+console.log(" A variável masculino é do tipo " + typeof masculino);
+console.log(" A variável altura é do tipo " + typeof altura);
+
+console.log(" ");
