@@ -58,3 +58,12 @@ aluno.nota = 9.0;
 console.log(" O nome do aluno é " + aluno.nome);
 console.log(" A matrícula do aluno é " + aluno.matricula);  
 console.log(" A nota do aluno é " + aluno.nota);
+
+console.log(" ");
+
+let tarefas = ["Arrumar a cama", "Escovar os dentes", "Tomar banho"];
+console.log(tarefas[0]);
+console.log(tarefas[2]);
+console.log(tarefas.length);
+tarefas.push("Vestir-se");
+console.log(tarefas.length);
