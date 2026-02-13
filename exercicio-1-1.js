@@ -143,3 +143,17 @@ switch (diaSemana) {
         console.log("Dia inválido.");
 }
 
+console.log(" ");
+
+
+console.log("Situação A: Números pares de 0 a 10");
+for (let i = 0; i <= 10; i += 2) {
+    console.log(i);
+}
+
+console.log("Situação B: Alunos com índice");
+let alunos = ["Ana", "Bruno", "Clara", "Diego"];
+for (let i = 0; i < alunos.length; i++) {
+    console.log(i + ": " + alunos[i]);
+}
+
