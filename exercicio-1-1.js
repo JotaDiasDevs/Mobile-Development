@@ -157,3 +157,14 @@ for (let i = 0; i < alunos.length; i++) {
     console.log(i + ": " + alunos[i]);
 }
 
+console.log(" ");
+
+
+console.log("Contagem regressiva de foguete");
+let contagem = 10;
+while (contagem >= 1) {
+    console.log(contagem);
+    contagem--;
+}
+console.log("🚀 Lançamento!");
+
