@@ -44,3 +44,17 @@ console.log(" Número do pedido: " + numeroPedido);
 
 console.log(" ");
 
+const aluno = {
+    nome: "Marcos",
+    matricula: 750001,
+}
+
+console.log(" O nome do aluno é " + aluno.nome);
+console.log(" A matrícula do aluno é " + aluno.matricula);  
+console.log(" A nota do aluno é " + aluno.nota);
+
+aluno.nota = 9.0;
+
+console.log(" O nome do aluno é " + aluno.nome);
+console.log(" A matrícula do aluno é " + aluno.matricula);  
+console.log(" A nota do aluno é " + aluno.nota);
