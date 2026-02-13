@@ -29,3 +29,18 @@ console.log(" A variável masculino é do tipo " + typeof masculino);
 console.log(" A variável altura é do tipo " + typeof altura);
 
 console.log(" ");
+
+let enderecoEntrega = null;
+let numeroPedido;
+
+console.log(" Endereço de entrega: " + enderecoEntrega);
+console.log(" Número do pedido: " + numeroPedido);
+
+enderecoEntrega = "Rua das Flores, 123";
+numeroPedido = 456;
+
+console.log(" Endereço de entrega: " + enderecoEntrega);
+console.log(" Número do pedido: " + numeroPedido);
+
+console.log(" ");
+
