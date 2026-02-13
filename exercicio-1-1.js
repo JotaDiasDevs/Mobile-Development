@@ -10,3 +10,8 @@ console.log( 17 % 5);
 
 console.log(" ");
 
+const nomeJogador ="Ana";
+let pontuacao = 0;
+console.log("O nome do jogador é " + nomeJogador + " e sua pontuação é " + pontuacao + ".");
+pontuacao += 10;
+console.log("O nome do jogador é " + nomeJogador + " e sua pontuação é " + pontuacao + ".");
