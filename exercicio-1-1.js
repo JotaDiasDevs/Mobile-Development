@@ -168,3 +168,33 @@ while (contagem >= 1) {
 }
 console.log("🚀 Lançamento!");
 
+console.log(" ");
+
+
+function calcularArea(base, altura) {
+    return base * altura / 2;
+}
+
+
+const calcularAreaArrow = (base, altura) => base * altura / 2;
+
+
+function cumprimentar(nome, periodo) {
+    return "Boa " + periodo + ", " + nome + "!";
+}
+
+
+const cumprimentarArrow = (nome, periodo) => "Boa " + periodo + ", " + nome + "!";
+
+
+console.log("Teste Função A (tradicional):");
+console.log(calcularArea(10, 8)); // Esperado: 40
+
+console.log("Teste Função A (arrow):");
+console.log(calcularAreaArrow(10, 8)); // Esperado: 40
+
+console.log("Teste Função B (tradicional):");
+console.log(cumprimentar("João", "manhã")); // Esperado: "Boa manhã, João!"
+
+console.log("Teste Função B (arrow):");
+console.log(cumprimentarArrow("Maria", "noite")); // Esperado: "Boa noite, Maria!"
