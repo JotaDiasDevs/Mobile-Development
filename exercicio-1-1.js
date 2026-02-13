@@ -67,3 +67,19 @@ console.log(tarefas[2]);
 console.log(tarefas.length);
 tarefas.push("Vestir-se");
 console.log(tarefas.length);
+
+console.log(" ");
+
+let veiculo = {
+    marca: "Toyota",
+    modelo: "Corolla",
+    ano: 2020,
+    disponivel: true,
+}
+
+console.log(veiculo.marca);
+console.log(veiculo.modelo);
+console.log(veiculo["ano"]);
+console.log(veiculo["disponivel"]);
+veiculo.cor = "Preto";
+console.log(veiculo.cor);
