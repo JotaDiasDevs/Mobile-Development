@@ -83,3 +83,33 @@ console.log(veiculo["ano"]);
 console.log(veiculo["disponivel"]);
 veiculo.cor = "Preto";
 console.log(veiculo.cor);
+
+console.log(" ");
+
+let nota = 8.5;//aprovado
+if (nota >= 7) {
+    console.log("Aprovado");
+} else if (nota >= 5 && nota < 7) {
+    console.log("Recuperação");
+} else {
+    console.log("Reprovado");
+}   
+
+nota = 6.0;//recuperação
+if (nota >= 7) {
+    console.log("Aprovado");    
+} else if (nota >= 5 && nota < 7) {
+    console.log("Recuperação");
+} else {
+    console.log("Reprovado");
+}
+
+nota = 4.0;//reprovado
+if (nota >= 7) {
+    console.log("Aprovado");    
+} else if (nota >= 5 && nota < 7) {
+    console.log("Recuperação");
+} else {
+    console.log("Reprovado");
+}
+
